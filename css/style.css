@@ -157,19 +157,24 @@ button {
 * complete.html（送信完了）
 *****************************/
 #complete header{
-    background: url("../img/haikei.png") center / cover no-repeat;
+    background: url("../img/zannnenn.png") center / cover no-repeat;
 }
+
+#complete{
+  background: url("../img/ware1.png") center / cover no-repeat;
+}
+
 #complete main {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: calc(100vh - 450px - 80px);
-    color: #FFF;
-    background: rgba(0, 0, 0, 0.30);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
 }
 /* ボタン（ホーム） */
 #btn_home {
-    background: rgba(0, 0, 0, 0.30);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /****************************
